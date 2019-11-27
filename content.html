@@ -1,0 +1,34 @@
+<!-- START DELIVERY ALERT -->
+<div id="zipcodealert" class="alert alert-notification74 body-copy warning-deliveryalert74">
+  <div class="container-fluid fixed-container">
+    <style>
+      .warning-deliveryalert74 {
+        margin: 0 0 10px 0;
+        padding: 20px 5px;
+      }
+      .alert-notification74 {
+        background-color: #fbaf17;
+      }
+#zipcodealert {
+display: none;
+}
+      #header-promo .featureItemsTable {
+        margin: 0px;
+      }
+    </style>
+    <a href="#" class="pull-right" data-dismiss="alert" aria-label="close">
+    </a>
+    	  <strong>Delivery Alert Message here</div>
+</div>
+
+<!-- END DELIVERY ALERT -->
+<script>
+if ($.cookie('WC_BD_ZIP') == '94901' || $.cookie('WC_BD_ZIP') == '94904' || $.cookie('WC_BD_ZIP') == '94914' || $.cookie('WC_BD_ZIP') == '94920' || $.cookie('WC_BD_ZIP') == '94925' || $.cookie('WC_BD_ZIP') == '94930' || $.cookie('WC_BD_ZIP') == '94939' || $.cookie('WC_BD_ZIP') == '94941' || $.cookie('WC_BD_ZIP') == '94942' || $.cookie('WC_BD_ZIP') == '94960' || $.cookie('WC_BD_ZIP') == '94965' || $.cookie('WC_BD_ZIP') == '94966' || $.cookie('WC_BD_ZIP') == '94976' || $.cookie('WC_BD_ZIP') == '94978' || $.cookie('WC_BD_ZIP') == '94979'){
+ //Matching Zip Code
+$("#zipcodealert").css("display", "block");
+} else {
+ //No Matching ZIP code
+}
+
+
+</script>
